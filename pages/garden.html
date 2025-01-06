@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Garden Collection - Green Oasis Nursery</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Arial', sans-serif;
+    }
+
+    body {
+      background-color: #eef6f3;
+      color: #333;
+    }
+
+    header {
+      background-color: #2a9d8f;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+      font-size: 1.5rem;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    nav {
+      display: flex;
+      justify-content: center;
+      background-color: #264653;
+      padding: 10px 0;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #e9c46a;
+    }
+
+    .hero {
+      background: url('https://example.com/garden-banner.jpg') no-repeat center center/cover;
+      height: 50vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+      text-align: center;
+    }
+
+    .hero h1 {
+      font-size: 3rem;
+    }
+
+    .garden-section {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px 20px;
+    }
+
+    .garden-item {
+      background-color: white;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      text-align: center;
+    }
+
+    .garden-item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .garden-content {
+      padding: 15px;
+    }
+
+    .garden-content h3 {
+      color: #2a9d8f;
+      font-size: 1.4rem;
+    }
+
+    .garden-content p {
+      margin: 10px 0;
+      color: #555;
+      font-size: 1rem;
+      line-height: 1.5;
+    }
+
+    .garden-content a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      color: #e76f51;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+
+    .garden-content a:hover {
+      color: #f4a261;
+    }
+
+    footer {
+      background-color: #2a9d8f;
+      color: white;
+      text-align: center;
+      padding: 10px 0;
+      margin-top: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>Garden Collection</header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#about">About Us</a>
+    <a href="#products">Products</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <h1>Transform Your Garden</h1>
+      <p>Explore our diverse range of garden plants and accessories.</p>
+    </div>
+  </section>
+
+  <section class="garden-section">
+    <div class="garden-item">
+      <img src="https://example.com/herbs.jpg" alt="Herbs">
+      <div class="garden-content">
+        <h3>Herbs</h3>
+        <p>Fresh and aromatic herbs to enhance your garden and kitchen.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+
+    <div class="garden-item">
+      <img src="https://example.com/vegetables.jpg" alt="Vegetables">
+      <div class="garden-content">
+        <h3>Vegetables</h3>
+        <p>Grow your own vegetables and enjoy fresh, organic produce.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+
+    <div class="garden-item">
+      <img src="https://example.com/landscaping.jpg" alt="Landscaping Plants">
+      <div class="garden-content">
+        <h3>Landscaping Plants</h3>
+        <p>Perfect plants for designing stunning outdoor spaces.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+
+    <div class="garden-item">
+      <img src="https://example.com/garden-tools.jpg" alt="Garden Tools">
+      <div class="garden-content">
+        <h3>Garden Tools</h3>
+        <p>High-quality tools to make your gardening easy and enjoyable.</p>
+        <a href="#">Learn More</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    &copy; 2025 Green Oasis Nursery. All rights reserved.
+  </footer>
+</body>
+</html>
